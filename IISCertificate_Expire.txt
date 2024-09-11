@@ -1,0 +1,30 @@
+Certification Expiration of SSL
+to generate request to the godaddy
+
+1.Go the ssl certificate
+2.create certificate request
+ 2.1 Enter the details of organization
+     country region Gb
+     organizational unit
+
+3.Then fill the details regarding the Encryption
+  A.Microsoft RSA SChannel Crptographic provider(Rivest-Shamir-Adleman)
+  b.Microsoft DH SChannel Crptographic provider (Diffie-Hellman)
+    bit length (4096) lenght increaces security become stronger 
+bit length of the encryption key determines the certificate's encryption strength 
+the greater the bit length the stronger the security however a greater bit lenght may decrease performance.
+
+4.Then Generate the file and paste it on the godaddy websites
+
+5.option is the go the ssl certificate then click on the our domain
+  5.1 paste the crypted key inside the reykey option
+  5.2 then submit the option
+  5.3 then download certificate iis
+
+6.Download the certificate
+
+7.and attached it to the iis binding 
+
+
+
+ 
